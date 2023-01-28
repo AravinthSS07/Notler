@@ -1,16 +1,16 @@
 from flask import *
 from flask_mysqldb import *
 
-#custom module
-from mysqlcreate import accounttable
-from mysqlcreate import notetittletable
-from mysqlcreate import notetable
+##custom module
+#from mysqlcreate import accounttable
+#from mysqlcreate import notetittletable
+#from mysqlcreate import notetable
 from gravatar import avatar
-
-#creating tables and running it
-accounttable()
-notetittletable()
-notetable()
+#
+##creating tables and running it
+#accounttable()
+#notetittletable()
+#notetable()
 
 app = Flask(__name__)
 
